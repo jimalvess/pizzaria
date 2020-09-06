@@ -1,0 +1,87 @@
+body {
+  background-color: #FFDEAD;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.button {
+  background-color: #953906;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+div.a {
+  font-size: 10px;
+}
+
+
+table.redTable {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 35%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 6px;
+}
+
+table.redTable tbody td {
+  font-size: 13px;
+}
+
+table.redTable tr:nth-child(even) {
+  background: #F5C8BF;
+}
+
+table.redTable thead {
+  background: #A40808;
+}
+
+table.redTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #A40808;
+}
+
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+table.redTable tfoot td {
+  font-size: 13px;
+}
+
+table.redTable tfoot .links {
+  text-align: right;
+}
+
+table.redTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #A40808;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
